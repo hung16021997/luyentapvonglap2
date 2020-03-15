@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai3</title>
+</head>
+<body>
+<script>
+    let s = "" ;
+    for (i = 1; i <= 5; i ++){
+        s += "*"
+        document.write(s);
+        document.write("<br>");
+    }
+    for (i=5;i>=1;i-- ){
+        for (j=1;j<=i;j++)
+            document.write("*");
+        document.write("<br>");
+    }
+    for (a=10,b=1;a>0,b<10;a--,b++) {
+        for (i = 0; i < a; i++) {
+            document.write('&nbsp'+ '&nbsp;');
+        }
+        for (i = 0; i < b; i++) {
+            document.write("*");
+        }
+        document.write('<br>');
+    }
+
+</script>
+</body>
+</html>
